@@ -44,15 +44,27 @@
 <!--        app:layout_constraintBottom_toBottomOf="@id/showB"-->
 <!--app:layout_constraintEnd_toEndOf="@id/showB"-->
 <!--        android:paddingStart="85dp"/>-->
-    <TextView
-        app:layout_constraintVertical_bias="0.1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="35sp"
-        android:text="View A"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
+<!--    <TextView-->
+<!--        app:layout_constraintVertical_bias="0.1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="35sp"-->
+<!--        android:background="#f25"-->
+<!--        android:text="View A"-->
+<!--        app:layout_constraintDimensionRatio=""-->
+<!--        android:textStyle="bold"-->
+<!--        -->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"/>-->
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintVertical_bias="0.5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintDimensionRatio="1:2"
+    android:src="@android:drawable/btn_default"/>
 </android.support.constraint.ConstraintLayout>
