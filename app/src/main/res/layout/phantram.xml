@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+<!--<TextView-->
+<!--    android:id="@+id/showA"-->
+<!--    android:layout_width="60dp"-->
+<!--    android:layout_height="50dp"-->
+<!--    android:text="A"-->
+<!--    android:textSize="35sp"-->
+<!--    android:background="#452"-->
+<!--    app:layout_constraintTop_toTopOf="parent"-->
+<!--    app:layout_constraintStart_toStartOf="parent"-->
+<!--    app:layout_constraintEnd_toEndOf="parent"/>-->
+<!--    <TextView-->
+<!--        android:id="@+id/showB"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="B"-->
+<!--        android:textSize="35sp"-->
+<!--        android:background="#E53935"-->
+<!--        app:layout_constraintTop_toTopOf="@id/showA"-->
+<!--        app:layout_constraintStart_toStartOf="@id/showA"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"/>-->
+<!--    <android.support.constraint.Barrier-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:constraint_referenced_ids="showA"-->
+<!--android:id="@+id/Barrier"-->
+<!--        app:barrierDirection="end"/>-->
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="#257"-->
+<!--        android:id="@+id/showC"-->
+<!--        android:text="C"-->
+<!--        android:textSize="35sp"-->
+<!--        app:layout_constraintTop_toTopOf="@id/showB"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/showB"-->
+<!--app:layout_constraintEnd_toEndOf="@id/showB"-->
+<!--        android:paddingStart="85dp"/>-->
+    <TextView
+        app:layout_constraintVertical_bias="0.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="View A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>
